@@ -1,16 +1,47 @@
-# React + Vite
+# Dubai Mall Interactive Sales Deck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is an **interactive, browser-based sales deck** designed to present a large-scale destination property — Dubai Mall — to potential tenants, sponsors, and event partners.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Unlike a traditional website or static presentation, this application focuses on **immersive storytelling, non-linear navigation, and business-driven interaction**.
 
-## React Compiler
+The goal is to simulate a real-world sales tool that can be used during live calls or shared as a standalone experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Interactive navigation with active section highlighting  
+- Cinematic hero section with premium UI design  
+- Data-driven overview (scale, visitors, retail capacity)  
+- Modular “Worlds” section (Retail, Luxury, Dining, Attractions)  
+- Clickable business paths (Leasing, Sponsorship, Events)  
+- Dynamic modal interaction for deeper exploration  
+- Responsive design for desktop and tablet  
+- Smooth animations (hover, scroll, transitions)
+
+
+## Tech Stack
+
+- React (Vite)
+- JavaScript (ES6)
+- CSS (custom styling, no frameworks)
+- Intersection Observer API (scroll detection)
+- Git & GitHub (version control)
+
+
+## Design Approach
+
+This project is inspired by:
+
+- Apple / Tesla (clean, premium UI)
+- Luxury brand websites (typography, spacing, minimalism)
+- Digideck-style sales tools (interactive storytelling)
+
+Key principles:
+
+- Minimal but impactful design  
+- Strong hierarchy and typography  
+- Business-focused interaction  
+- Visual clarity over complexity  
+
